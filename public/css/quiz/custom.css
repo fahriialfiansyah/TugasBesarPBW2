@@ -1,0 +1,162 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.center {
+    text-align: center;
+}
+
+
+/* header {
+    background-color: #cccccc;
+    height: 120px;
+    background-image: url(../images/laravel-logo.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+header h2 {
+    color: white;
+    line-height: 120px;
+}
+
+header h2 a {
+    color: white;
+}
+
+header h2 a:hover {
+    text-decoration: none;
+} */
+
+
+/* input[type=text],
+input[type=number],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+} */
+
+.quiz .playBtn {
+    display: inline-block;
+    cursor: pointer;
+    background: #45a049;
+    color: #ffffff;
+    padding: 6px 30px;
+    margin: 20px 0;
+}
+
+.quiz .playBtn:hover {
+    color: yellow;
+}
+
+.quiz .quizstart {
+    display: none;
+    text-align: center;
+}
+
+.quiz .quizcategories {
+    margin: 30px 0;
+}
+
+.quiz .quizcategories .catitem {
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #4e92d8;
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.quiz .quizcategories .catitem:hover {
+    background-color: #3775b5;
+}
+
+.quizplay .timer {
+    display: inline;
+    background-color: #4bb5f1;
+    color: white;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 20px;
+}
+
+
+/* .btn {
+    display: inline;
+    background-color: #485054;
+    color: white;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 20px;
+    display: none;
+} */
+
+.quizplay .quizquestions {
+    margin-top: 40px;
+}
+
+.quizplay .quizquestions .qItem {
+    display: none;
+}
+
+.quizplay .quizquestions .answers .answ {
+    margin: 20px 0 20px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #f5f8fa;
+}
+
+.quizplay .quizquestions .answers .answ span {
+    display: inline-block;
+    line-height: 20px;
+    padding: 7px 10px;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-left: -14px;
+}
+
+.quizplay .quizquestions .answers .answ:hover {
+    border-bottom: 1px solid green;
+}
+
+.btnAgain {
+    display: inline;
+    background-color: #485054;
+    color: white;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
